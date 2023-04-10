@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T23:16:59.158Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="21.1.5" etag="Ku9NDmFpyB-JlF_CuTtM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T00:05:58.993Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="6LY0S_jpT-UaGJI2cpHj" version="21.1.5" type="github">
   <diagram name="Page-1" id="R-NAWG7UkEFQaDss53Tp">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-1" value="ArgoCD" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-3" value="Kubernetes" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="180" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-4" value="AWS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-5" value="Git/GitHub/GitLab" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-6" value="Jenkins/ TeamCity/ CircleCI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="440" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H2hq2i-ySHy-sAGrLfs0-7" target="H2hq2i-ySHy-sAGrLfs0-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="100" />
+              <mxPoint x="300" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-7" value="&lt;div style=&quot;text-align: start;&quot;&gt;Kubernetes controller, responsible for&amp;nbsp;&lt;span style=&quot;text-align: start; caret-color: rgb(32, 33, 36); color: rgb(32, 33, 36); font-family: arial, sans-serif;&quot;&gt;continuously monitoring all running applications and comparing their live state to the desired state specified in the Git repository. Also Code&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: start; background-color: rgb(255, 255, 255); caret-color: rgb(32, 33, 36);&quot;&gt;&lt;font face=&quot;arial, sans-serif&quot; color=&quot;#202124&quot;&gt;Pipeline...&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2hq2i-ySHy-sAGrLfs0-9" target="H2hq2i-ySHy-sAGrLfs0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-9" value="&lt;p style=&quot;text-align: start; margin: 0.5em 0px; caret-color: rgb(32, 33, 34); color: rgb(32, 33, 34); font-family: sans-serif;&quot;&gt;K8S -&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: rgb(121, 92, 178); background-image: none; overflow-wrap: break-word;&quot; title=&quot;Operating-system-level virtualization&quot; class=&quot;mw-redirect&quot; href=&quot;https://en.wikipedia.org/wiki/Operating-system-level_virtualization&quot;&gt;container&lt;/a&gt;&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: rgb(121, 92, 178); background-image: none; overflow-wrap: break-word;&quot; title=&quot;Orchestration (computing)&quot; href=&quot;https://en.wikipedia.org/wiki/Orchestration_(computing)&quot;&gt;orchestration&lt;/a&gt;&amp;nbsp;system for automating&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: rgb(121, 92, 178); background-image: none; overflow-wrap: break-word;&quot; title=&quot;Software deployment&quot; href=&quot;https://en.wikipedia.org/wiki/Software_deployment&quot;&gt;software deployment&lt;/a&gt;, scaling, and management. Infrastructure + environment. Or EC2 or Chef or Ansible or Terraform&amp;nbsp;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2hq2i-ySHy-sAGrLfs0-13" target="H2hq2i-ySHy-sAGrLfs0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-13" value="&lt;p style=&quot;text-align: start; margin: 0.5em 0px; caret-color: rgb(32, 33, 34); color: rgb(32, 33, 34); font-family: sans-serif;&quot;&gt;Google Cloud Platform (GCP) offers Google Cloud Storage, while AWS offers Amazon Simple Storage Services(S3).&amp;nbsp;AWS is known for its wide range of services, Azure has a strong focus on building and deploying applications, and GCP is known for its machine learning and data analytics offerings.&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="660" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2hq2i-ySHy-sAGrLfs0-16" target="H2hq2i-ySHy-sAGrLfs0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-16" value="&lt;span style=&quot;border-color: var(--border-color); caret-color: rgb(32, 33, 36); color: rgb(32, 33, 36); font-family: arial, sans-serif; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;&quot;&gt;store code, keeps process trigger(pipeline trigger)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="311" y="355" width="660" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2hq2i-ySHy-sAGrLfs0-17" target="H2hq2i-ySHy-sAGrLfs0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2hq2i-ySHy-sAGrLfs0-17" value="&lt;span style=&quot;border-color: var(--border-color); caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; text-align: start;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; size=&quot;3&quot; face=&quot;arial, sans-serif&quot; color=&quot;#202124&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); caret-color: rgb(32, 33, 36);&quot;&gt;Jenkins -&amp;nbsp;builds code, runs tests and deploy, triggers ArgoCD&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="311" y="435" width="660" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
